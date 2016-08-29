@@ -5,7 +5,7 @@
       <paths name="Indigo Bloom Design">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/wp-content/themes/x-child" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

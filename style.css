@@ -15,6 +15,7 @@ Template: x
 h1.brand { font-size: 14px; color: #9f9faa; letter-spacing: 2px; }
 .includes p { margin-bottom: 5px; }
 .arial li { font-family: Arial, sans-serif; font-size: 12px; }
+p { font-family: "Times New Roman", sans-serif; }
 p.name {
     font-family: Arial, sans-serif;
     color: #53469d;
@@ -34,9 +35,17 @@ p.name {
 /*** Slider ***/
 .x-slider-container.below { border-bottom: none; }
 
+/*** Home Page ***/
+.home .content { font-family: Arial, sans-serif; font-size:12px; letter-spacing: 1px; }
+
 /*** Work Page ***/
-.hovercard p a { font-family: Arial, sans-serif; }
+.cardtitle { font-family: Arial, sans-serif; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; margin: 0; }
+.cardcontent { font-family: "Times New Roman", sans-serif; font-size: 14px; line-height: 1.5em; }
+.hovercard .aligncenter { margin-bottom: 0; }
 .purple { color: #5e529d; }
+
+/*** Client Page ***/
+.page-id-121 p { font-family: Arial, sans-serif; text-transform: uppercase; }
 
 
 
@@ -148,6 +157,8 @@ p.name {
     z-index: 10;
     background: #53469D;
     letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
 }
 #project-details .tabs {
     position: absolute;
@@ -174,6 +185,8 @@ p.name {
     color: #BFB8D9;
     background: #53469D;
     letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
 }
 #project-details span.opener:hover,
 #project-details span.closer:hover,
@@ -183,7 +196,8 @@ p.name {
 }
 #project-details .tabs .nav {
     display: inline-block;
-    margin-bottom: 20px;
+    margin:0;
+    font-family: Arial, sans-serif;
 }
 #project-details .tabs .nav li {
     text-transform: uppercase;
@@ -191,6 +205,8 @@ p.name {
     cursor: pointer;
     float: left;
     letter-spacing: 1px;
+    list-style: none;
+    font-size: 12px;
 }
 #project-details .tabs .nav li:first-child {
     margin-left: 0;
@@ -199,7 +215,19 @@ p.name {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+    font-style: italic;
 }
+
+.tabs h1 {
+    font-family:Arial, sans-serif;
+    text-transform:uppercase;
+    color:#BFB8D8;
+    letter-spacing:2px;
+    font-size:18px;
+    font-weight:normal;
+    margin:20px auto;}
+
+.tabs h1 span { color: #fff; }
 /* SLIDER STYLES */
 
 #slider-wrap {
